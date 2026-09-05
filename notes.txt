@@ -1,0 +1,18 @@
+Loop
+
+for - range function 
+    - iterable 
+
+range function will take not less than 1 parameter and not more than 3 parameter
+range(5)-checking condition a<5 ; 0;+1;
+range(1,5)-checking as is;1;+1
+range(1,5,2)-checking as is ;1;+2
+
+membership operator - in ,not in 
+Q: write a python script to print count from 1 to user defined input ?
+Q: write a python script to print to make a user defined table ?
+Q: write a table to print table without using multiplicaton operator ?
+Q: factorial ?
+ans: take input - initialise temp from 1 - run loop from 1 to n+1 - multiply i every iteration - print temp  
+
+	
