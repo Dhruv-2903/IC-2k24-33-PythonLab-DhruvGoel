@@ -30,11 +30,11 @@ Student Type: <class 'bool'>
 
 ```
 
-Dhruv
+Dhruv Goel
 20
 Indore
 
-My name is Dhurv, I am 20 years old, and I live in Indore.
+My name is Dhruv, I am 20 years old, and I live in Indore.
 
 ```
 
@@ -95,7 +95,7 @@ Temp in Fahrenheit: 77.0
 Dhruv Goel
 
 Uppercase: DHRUV GOEL
-Lowercase: dhurv goel
+Lowercase: dhruv goel
 Without extra Sidespaces: Dhruv Goel
 Length: 10
 
