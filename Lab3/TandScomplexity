@@ -1,0 +1,109 @@
+Snippet 1
+Time complexity: O(n)
+Space complexity: O(1)
+Justify: Checks each item in the array once from start to finish while keeping track of only one maximum value.
+
+Snippet 2
+Time complexity: O(n^2)
+Space complexity: O(1)
+Justify: Uses two loops to compare every single element against every other element, using no extra storage.
+
+Snippet 3
+Time complexity: O(log n) 
+Space complexity: O(log n) 
+Justify: Chops off one digit at a time by dividing by 10, leaving a small stack of waiting recursive calls in memory.
+
+Snippet 4
+Time complexity: O(n^2)
+Space complexity: O(n^2)
+Justify: Combines every item with every item to create pairs, saving all n^2 combinations in a list.
+
+Snippet 5
+Time complexity: O(log n)
+Space complexity: O(1)
+Justify: Cuts the remaining search space in half each step without saving any extra data structures.
+
+Snippet 6
+Time complexity: O(n^3)
+Space complexity: O(n^2)
+Justify: Uses three nested loops to multiply two grids, building a new n x n matrix to store results.
+
+Snippet 7
+Time complexity: O(m * n)
+Space complexity: O(k)
+Justify: Scans every single box in a grid, but only stores memory for the k non-zero values it finds.
+
+Snippet 8
+Time complexity: O(n^2)
+Space complexity: O(1)
+Justify: The double loop takes much longer than the single loop, so it determines the total runtime.
+
+Snippet 9
+Time complexity: O(n)
+Space complexity: O(1)
+Justify: The inner loop runs a fixed 10 times for each item, so total work scales directly with n.
+
+Snippet 10
+Time complexity: O(n)
+Space complexity: O(n)
+Justify: Loops through the original list backwards once and creates a brand-new list of the same size.
+
+Snippet 11
+Time complexity: O(n)
+Space complexity: O(1)
+Justify: Swaps elements in place moving inward from both ends, requiring zero extra list memory.
+
+Snippet 12
+Time complexity: O(n)
+Space complexity: O(n)
+Justify: Calls itself n times recursively, holding n unfinished function calls stacked in memory.
+
+Snippet 13
+Time complexity: O(2^n)
+Space complexity: O(n)
+Justify: Branches into two new recursive calls at every step, creating a growing tree of calls up to depth n.
+
+Snippet 14
+Time complexity: O(n)
+Space complexity: O(n)
+Justify: Scans the list once using a quick lookup set that stores up to n unique numbers.
+
+Snippet 15
+Time complexity: O(n * 2^n)
+Space complexity: O(n)
+Justify: Generates all 2^n subsets and loops n times for each subset to extract its items.
+
+Snippet 16
+Time complexity: O(n + m)
+Space complexity: O(n + m)
+Justify: Steps through two sorted lists once side-by-side, placing all items into a new combined output list.
+
+Snippet 17
+Time complexity: O(n)
+Space complexity: O(n)
+Justify: Makes a full reversed copy of the string in memory before checking if it matches the original.
+
+Snippet 18
+Time complexity: O(m * n)
+Space complexity: O(m * n)
+Justify: Visits every box in an m x n grid and copies each value into a single flat list.
+
+Snippet 19
+Time complexity: O(exp)
+Space complexity: O(exp)
+Justify: Subtracts 1 from the exponent each step, holding a stack of recursive calls equal to the exponent size.
+
+Snippet 20
+Time complexity: O(log(exp))
+Space complexity: O(log(exp))
+Justify: Halves the exponent at every recursive step, keeping call depth and total operations very small.
+
+Snippet 21
+Time complexity: O(|a| * |b|)
+Space complexity: O(1)
+Justify: Compares every item in list a against every item in list b using no additional memory.
+
+Snippet 22
+Time complexity: O(n)
+Space complexity: O(u) (or O(n) where u is unique elements)
+Justify: Reads the list once and builds a dictionary storing counts for each unique element u.
